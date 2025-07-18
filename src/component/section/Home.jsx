@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "/src/assets/Contact.jpeg";
+import heroImg from "/src/assets/Sankalp.jpeg";
 
 function Home() {
   return (
@@ -57,7 +57,7 @@ function Home() {
         <img
           src={heroImg}
           alt="Sankalp Katiyar"
-          className="w-[300px] md:w-[400px] lg:w-[500px] object-contain"
+          className="w-[500px] md:w-[500px] lg:w-[600px] object-contain"
         />
       </div>
     </section>
