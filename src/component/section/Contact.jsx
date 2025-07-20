@@ -61,7 +61,7 @@ function Contact() {
               id="message"
               rows="4"
               placeholder="Type your message here..."
-              className="w-full border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600"
+              className="w-full border border-gray-300 px-4 py-2 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 text-black"
               required
             ></textarea>
           </div>

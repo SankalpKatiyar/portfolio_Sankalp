@@ -34,7 +34,7 @@ function Navbar({ menuOpen, setMenuOpen }) {
         <div className="flex justify-between items-center h-16">
           {/* Logo/Brand Name */}
           <a href="/home" className="text-2xl font-bold text-white">
-            Sankalp<span className="text-blue-400">.Katiyar</span>
+            Sankalp<span className="text-blue-400">Katiyar</span>
           </a>
 
           {/* Hamburger Icon */}
@@ -70,9 +70,11 @@ function Navbar({ menuOpen, setMenuOpen }) {
           {/* Nav Links */}
           <div className="hidden md:flex items-center space-x-8">
             <NavLink href="#home">Home</NavLink>
-            <NavLink href="#about">About</NavLink>
+            <NavLink href="#footer">About</NavLink>
+            <NavLink href="#qualification">Qualification</NavLink>
+            <NavLink href="#certifications">Certifications</NavLink>
+            <NavLink href="#skills">Skills</NavLink>
             <NavLink href="#projects">Projects</NavLink>
-            <NavLink href="#contact">Contact</NavLink>
           </div>
         </div>
       </div>
