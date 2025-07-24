@@ -5,14 +5,14 @@ function Home() {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center bg-white px-6 md:px-16"
+      className="min-h-screen flex flex-col-reverse lg:flex-row items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-32 bg-gray-50"
     >
       {/* Left Text Content */}
-      <div className="w-full md:w-1/2 text-center md:text-left z-10">
-        <h1 className="text-2xl md:text-5xl font-bold mb-4 text-blue-950 leading-tight">
+      <div className="w-full lg:w-1/2 text-center lg:text-left space-y-6 mt-10 lg:mt-0">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-blue-950 leading-snug">
           Hi, I'm <span className="text-blue-700">Sankalp Katiyar</span>
         </h1>
-        <p className="text-lg text-gray-700 mb-2 leading-relaxed">
+        <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
           I'm a passionate{" "}
           <span className="text-blue-700 font-semibold">
             Computer Science Engineering student
@@ -35,17 +35,18 @@ function Home() {
           innovative ideas into impactful digital experiences.
         </p>
 
-        <div className="flex flex-col md:flex-row items-center justify-center md:justify-start gap-4">
+        {/* Buttons */}
+        <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
           <a
             href="#contact"
-            className="bg-blue-700 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-800 transition"
+            className="bg-blue-700 text-white px-6 py-3 rounded-xl font-semibold hover:bg-blue-800 transition duration-300"
           >
             Contact Me
           </a>
           <a
             href="/src/assets/Sankalp_Katiyar_Resume.pdf"
             download
-            className="border border-blue-700 text-blue-700 px-6 py-3 rounded-xl font-semibold hover:bg-blue-700 hover:text-white transition"
+            className="border border-blue-700 text-blue-700 px-6 py-3 rounded-xl font-semibold hover:bg-blue-700 hover:text-white transition duration-300"
           >
             Download Resume
           </a>
@@ -53,11 +54,11 @@ function Home() {
       </div>
 
       {/* Right Hero Image */}
-      <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
+      <div className="w-full lg:w-1/2 flex justify-center">
         <img
           src={heroImg}
           alt="Sankalp Katiyar"
-          className="w-[500px] md:w-[500px] lg:w-[600px] object-contain"
+          className="w-[90%] max-w-[400px] md:max-w-[500px] lg:max-w-[550px] object-contain "
         />
       </div>
     </section>
